@@ -52,6 +52,7 @@ setup(
         'singer-python==5.0.4',
         'backoff==1.3.2',
         'psycopg2==2.7.3.2',
+        'psycopg2-binary'
       ],
       setup_requires=[
         'pytest-runner>=2.11,<3.0a',
